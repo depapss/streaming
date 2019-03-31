@@ -40,6 +40,9 @@ client.user.setAvatar(argresult);
   if (message.content.startsWith('مين حبيبتي')) {
        message.channel.send(`** آلاء حبيبتي | ❤💖🌹 **`)
   }
+   if (message.content.startsWith('مين اختي')) {
+       message.channel.send(`** منولة اكيد | ❤💖🌹 **`)
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
