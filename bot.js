@@ -13,23 +13,26 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'ply')) {
     client.user.setGame(argresult);
-      message.channel.send(`**👌**`)
+      message.channel.send(`**👌 تم **`)
   } else 
   if (message.content.startsWith(adminprefix + 'wat')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`**👌**`)
+      message.channel.send(`**👌تم **`)
   } else 
   if (message.content.startsWith(adminprefix + 'lis')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**👌**`)
+      message.channel.send(`**👌تم **`)
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
-      message.channel.send(`**👌 **`)
+      message.channel.send(`**👌 تم  **`)
   }
   if (message.content.startsWith( 'av')) {
 client.user.setAvatar(argresult);
  message.channel.sendMessage(`👌 `);
+  }
+  if (message.content.startsWith(adminprefix + '1.5')) {
+       message.channel.send(`**👌تم **`)
   }
 });
 
