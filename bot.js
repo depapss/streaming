@@ -13,23 +13,23 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'ply')) {
     client.user.setGame(argresult);
-      message.channel.send(`**تم فتح (اغلاق) لعب   ${argresult}**`)
+      message.channel.send(`**👌**`)
   } else 
   if (message.content.startsWith(adminprefix + 'wat')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`**تم فتح (اغلاق) مشاهدة   ${argresult}**`)
+      message.channel.send(`**👌**`)
   } else 
   if (message.content.startsWith(adminprefix + 'lis')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**تم فتح(اغلاق)اغاني   ${argresult}**`)
+      message.channel.send(`**👌**`)
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
-      message.channel.send(`**تم فتح (اغلاق) الستريمنق ${argresult} **`)
+      message.channel.send(`**👌 **`)
   }
   if (message.content.startsWith( 'av')) {
 client.user.setAvatar(argresult);
- message.channel.sendMessage(`**${argresult}** : تم تغير صورة `);
+ message.channel.sendMessage(`👌 `);
   }
 });
 
