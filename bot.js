@@ -30,6 +30,7 @@ client.on('message', message => {
   if (message.content.startsWith( 'av')) {
 client.user.setAvatar(argresult);
  message.channel.sendMessage(`**${argresult}** : تم تغير صورة `);
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
