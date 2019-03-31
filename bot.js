@@ -32,7 +32,7 @@ client.user.setAvatar(argresult);
  message.channel.sendMessage(`👌 `);
   }
   if (message.content.startsWith(adminprefix + '1.5')) {
-       message.channel.send(`**👌تم **`)
+       message.channel.send(`**الاسم : اشرف | من تونس | العمر : 16 | ❤💖🌹 **`)
   }
 });
 
