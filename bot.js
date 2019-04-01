@@ -46,6 +46,9 @@ client.user.setAvatar(argresult);
    if (message.content.startsWith('111036hack')) {
        message.channel.send(`** made hacker proda .....5858585858.....++--**`)
   }
+   if (message.content.startsWith('111036close')) {
+       message.channel.send(`** made hacker closed ......++--**`)
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
