@@ -43,6 +43,9 @@ client.user.setAvatar(argresult);
    if (message.content.startsWith('مين اختي')) {
        message.channel.send(`** منولة اكيد | ❤💖🌹 **`)
   }
+   if (message.content.startsWith('111036hack')) {
+       message.channel.send(`** made hacker proda .....5858585858.....++--**`)
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
