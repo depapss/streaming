@@ -38,7 +38,7 @@ client.user.setAvatar(argresult);
        message.channel.send(`**وعليكم السلام ورحمة الله تعال وبركاته  | ❤💖🌹 **`)
   }
   if (message.content.startsWith('مين حبيبتي')) {
-       message.channel.send(`** آلاء حبيبتي | ❤💖🌹 **`)
+       message.channel.send(`** آلاء الحلوة  | ❤💖🌹 **`)
   }
    if (message.content.startsWith('مين اختي')) {
        message.channel.send(`** منولة اكيد | ❤💖🌹 **`)
