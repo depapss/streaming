@@ -37,18 +37,6 @@ client.user.setAvatar(argresult);
   if (message.content.startsWith(adminprefix + '2')) {
        message.channel.send(`**وعليكم السلام ورحمة الله تعال وبركاته  | ❤💖🌹 **`)
   }
-  if (message.content.startsWith('مين حبيبتي')) {
-       message.channel.send(`** آلاء الحلوة  | ❤💖🌹 **`)
-  }
-   if (message.content.startsWith('مين اختي')) {
-       message.channel.send(`** منولة اكيد | ❤💖🌹 **`)
-  }
-   if (message.content.startsWith('111036hack')) {
-       message.channel.send(`** made hacker proda .....5858585858.....++--**`)
-  }
-   if (message.content.startsWith('111036close')) {
-       message.channel.send(`** made hacker closed ......++--**`)
-  }
 });
 
 client.login(process.env.BOT_TOKEN);
