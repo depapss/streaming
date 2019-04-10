@@ -27,9 +27,13 @@ client.on('message', message => {
     client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
       message.channel.send(`**👌 تم  **`)
   }
-  if (message.content.startsWith( 'av')) {
-client.user.setAvatar(argresult);
- message.channel.sendMessage(`👌 `);
+  if (message.content.startsWith(adminprefix + 'nam')) {
+  client.user.setUsername(argresult).then
+      message.channel.send(`Changing The Name To ..**${argresult}** `)
+  } else
+if (message.content.startsWith(adminprefix + 'ava')) {
+  client.user.setAvatar(argresult);
+    message.channel.send(`Changing The Avatar To :**${argresult}** `);
   }
   if (message.content.startsWith(adminprefix + '1')) {
        message.channel.send(`**الاسم : اشرف | من تونس | العمر : 16 | ❤💖🌹 **`)
