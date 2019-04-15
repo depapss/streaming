@@ -42,44 +42,6 @@ if (message.content.startsWith(adminprefix + 'ava')) {
   if (message.content.startsWith(adminprefix + '2')) {
        message.channel.send(`**وعليكم السلام ورحمة الله تعال وبركاته  | ❤💖🌹 **`)
   }
-  
-client.on('message', message => {
-    if (message.content.startsWith(adminprefix + 'dis')) {
-            var args = message.content.split(' ').slice(1).join(' ');
-}
-      var array = [];
-      var i = 0;
-      if(args){
-client.users.filter(u => u.discriminator == args).map(u => {
-    if(i > 4){
-     return;
-    }
-    i = i + 1;
- 
-   array.push(`${u.tag}`);
-});
-}
-hastebin(`${array.slice(0, 30).join('\n')}`, 'txt').then(l => {
-    message.channel.send(`${l}`);
-}).catch(console.error);
-});
-client.on('message' , message => {
-var PREFIX = '-';
-if(message.content === `${PREFIX}dis         `         ) {
-                      let array = [];
-                      var i = 0;
-client.users.filter(u => u.discriminator == message.author.discriminator).map(u => {
-    if(i > 4){
-     return;
-    }
-    i = i + 1;
-   array.push(`${u.tag}`);
-});
-hastebin(`${array.slice(0, 30).join('\n')}`, 'txt').then(l => {
-    message.channel.send(`${l}`);
-}).catch(console.error);
- 
-        }
 });
 
 client.login(process.env.BOT_TOKEN);
