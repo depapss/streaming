@@ -41,7 +41,9 @@ if (message.content.startsWith(adminprefix + 'ava')) {
   }
   if (message.content.startsWith(adminprefix + '2')) {
        message.channel.send(`**وعليكم السلام ورحمة الله تعال وبركاته  | ❤💖🌹 **`)
-  }
+}
 });
+
+
 
 client.login(process.env.BOT_TOKEN);
