@@ -44,8 +44,7 @@ if (message.content.startsWith(adminprefix + 'ava')) {
   }
   
 client.on('message', message => {
-var PREFIX = '-';
-    if(message.content.startsWith(PREFIX + 'dis')) {
+    if (message.content.startsWith(adminprefix + 'dis')) {
             var args = message.content.split(' ').slice(1).join(' ');
 }
       var array = [];
