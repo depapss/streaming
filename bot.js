@@ -7,7 +7,6 @@ client.on('ready', () => {
 
 const developers = ["527925159546454026"]
 const adminprefix = "-";
-const hastebin = require('hastebin-gen');
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
