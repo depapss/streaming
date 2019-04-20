@@ -39,7 +39,7 @@ if (message.content.startsWith(adminprefix + 'ava')) {
        message.channel.send(`**الاسم : اشرف | من تونس | العمر : 16 | ❤💖🌹 **`)
   }
   if (message.content.startsWith(adminprefix + '2')) {
-       message.channel.send(`**وعليكم السلام ورحمة الله تعال وبركاته  | ❤💖🌹 **`)
+       message.channel.send(`https://discord.gg/ANdh3Pq`)
  }
 });
 
