@@ -5,7 +5,7 @@ client.on('ready', () => {
 });
 
 
-const developers = ["527925159546454026"]
+const developers = ["541322693178425358"]
 const adminprefix = "-";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -35,12 +35,6 @@ if (message.content.startsWith(adminprefix + 'ava')) {
   client.user.setAvatar(argresult);
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
   }
-  if (message.content.startsWith(adminprefix + '1')) {
-       message.channel.send(`**الاسم : اشرف | من تونس | العمر : 16 | ❤💖🌹 **`)
-  }
-  if (message.content.startsWith(adminprefix + '2')) {
-       message.channel.send(`https://discord.gg/ANdh3Pq`)
- }
 });
 
 
